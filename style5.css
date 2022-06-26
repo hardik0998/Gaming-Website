@@ -1,0 +1,69 @@
+.m-icon{
+    transform: rotate(44deg);
+    transition: 0.3s;
+}
+.m-icon.active{
+    transform: rotate(0deg);
+}
+
+.bdy3{
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(to right,#f73c3c,#ff6062);
+
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    color: rgb(248, 239, 239);
+}
+.last h3{
+    font-size: 28px;
+    /* font-style: italic; */
+    margin: 15px;
+}
+.last form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mail{
+    margin: 15px 15px ;
+    padding: 9px 9px;
+    width: 100%;
+    text-align: center;
+    height: 25px;
+    font-style: italic;
+    border: none;
+    outline: none;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0,0.4);
+
+}
+.fbtn{
+    font-size: 17px;
+    background: linear-gradient(to right,#f86868,#db3c3e);
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0,0.4);
+
+}
+.social{
+    display: flex;
+    align-items: center;
+    
+}
+.social li{
+    list-style: none;
+    margin: 22px;
+}
+.social li a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(248, 239, 239);
+    font-size: 23px;
+}
+.social li a:hover{
+    box-shadow: 0px 4px 15px rgba(0, 0, 0,0.6);
+    border-radius: 50%;
+
+}

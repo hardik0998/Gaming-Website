@@ -1,0 +1,103 @@
+.games{
+    font-size: 33px;
+    text-align: center;
+    font-weight: 600;
+    font-style:inherit;
+    cursor: pointer;
+    margin: 50px;
+    margin-bottom: -13px;
+    /* animation: games 1s infinite;
+    animation-delay: 0.8s; */
+    
+}
+/* @keyframes games{
+    0%{
+        color: #ed1c24;
+    }
+    
+    50%{
+        color: #39b54a;
+    }
+   
+    100%{
+        color: #630460;
+    }
+} */
+span{
+    color: black;
+    animation: games 1s infinite;
+    animation-delay: 0.8s;
+}
+@keyframes games{
+    0%{
+        color: #ff2929;
+    }
+    
+    50%{
+        color: black;
+    }
+   
+    100%{
+        color: #ff2929;
+    }
+}
+
+.bdy{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    margin-top:-30px ;
+}
+.wrapper{
+    width: 100%;
+}
+.wrapper .carousel{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+}
+.carousel .card{
+    cursor: pointer;
+    line-height: 400px;
+    text-align: center;
+    color: #fff;
+    font-size: 90px;
+    font-weight: 600;
+    margin: 20px 0;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    height: 363px;
+}
+
+.carousel .card-1{
+    background: #ed1c24 ;
+}
+.carousel .card-2{
+    background: #0072bc ;
+}
+.carousel .card-3{
+    background: #39b54a;
+}
+.carousel .card-4{
+    background: #f26522 ;
+}
+.carousel .card-5{
+    background: #630460 ;
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 40px;
+}
+.owl-dot{
+    height: 15px;
+    width: 45px;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none;
+    margin: 0 5px;
+    border: 2px solid #0072bc!important;
+    transition: all 0.5s ease;
+}
+.owl-dot:hover,.owl-dot.active{
+    background: #0072bc!important;
+}
