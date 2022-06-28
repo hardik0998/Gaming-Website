@@ -20,7 +20,7 @@
 
 }
 .crsl{
-    width: 50%;
+    width: 70%;
     display: flex;
     margin: auto;
 }
@@ -65,12 +65,13 @@ i img{
 }
 .name{
     align-self: flex-start;
-    margin-left:250px ;
+    margin-left:75px;
+    margin-top: -5px;
     font-size: 28px;
 }
 
 .detail{
-    width: 200px;
+    width: 280px;
     padding: 5px 10px;
     font-style: italic;
     font-weight: 300;
@@ -78,20 +79,20 @@ i img{
     line-height: 21px;
     text-align: left;
     align-self: flex-start;
-    margin-left:240px ;
+    margin-left: 65px;
     margin-top: 6px;
 
 
 }
 #inf{
     align-self: flex-start;
-    margin-left:250px ;
+    margin-left:75px ;
     margin-top: 10px;
 }
 #hi{
     
     position: relative;
-    left: 200px;
+    left: 300px;
     bottom:100px ;
     z-index: 1;
 }
